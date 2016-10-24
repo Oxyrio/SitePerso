@@ -1,19 +1,31 @@
-.first {
+#first {
     background-color: red;
+    height: 200px;
+    width: 100%;
+
+
 }
 
-.second {
+#second {
     background-color: blue;
+    height: 200px;
+    width: 100%;
 }
 
-.third {
+#third {
     background-color: green;
+    height: 200px;
+    width: 100%;
 }
 
-.fourth {
+#fourth {
     background-color: white;
+    height: 200px;
+    width: 100%;
 }
 
-.fifth {
+#fifth {
     background-color: yellow;
+    height: 200px;
+    width: 100%;
 }
