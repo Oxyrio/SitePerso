@@ -15,7 +15,6 @@
 
 <body>
 
-<p>lol</p>
 
 <!-- Dans l'optique où on veut faire un site à plusieurs pages -->
 
