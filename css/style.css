@@ -1,29 +1,29 @@
 #first {
     background-color: red;
-    height: 200px;
+    height: 100%;
     width: 100%;
 }
 
 #second {
     background-color: blue;
-    height: 200px;
+    height: 100%;
     width: 100%;
 }
 
 #third {
     background-color: green;
-    height: 200px;
+    height: 100%;
     width: 100%;
 }
 
 #fourth {
     background-color: white;
-    height: 200px;
+    height: 100%;
     width: 100%;
 }
 
 #fifth {
     background-color: yellow;
-    height: 200px;
+    height: 100%;
     width: 100%;
 }
