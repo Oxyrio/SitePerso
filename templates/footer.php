@@ -1,4 +1,4 @@
-<p>C'est le footer</p>
+<p>© Copyright 2016 - Matthieu Lalbat & Aymé Jacquet</p>
 
 
 </body>
