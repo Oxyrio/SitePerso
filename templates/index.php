@@ -29,7 +29,7 @@ include('header.php');
 </div>
 
 <div id="fourth">
-    <div class="container fourth">
+    <div class="container">
         <div class="row">
             <h1>Compétences</h1>
         </div>
@@ -37,7 +37,7 @@ include('header.php');
 </div>
 
 <div id="fifth">
-    <div class="container fifth">
+    <div class="container">
         <div class="row">
             <h1>Contact</h1>
         </div>
