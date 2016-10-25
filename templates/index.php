@@ -44,6 +44,17 @@ include('header.php');
     </div>
 </div>
 
+<span class="tooltip" title="This is my span's tooltip message!">Some text</span><hr>
+
+
+<span class="tooltip" data-tooltip-content="#tooltip_content">This span has a tooltip with HTML when you</span>
+
+<div class="tooltip_templates">
+    <span id="tooltip_content">
+        <img src="../img/test.jpg" /> <strong>This is the content of my tooltip!</strong>
+    </span>
+</div>
+
 
 <?php
 
