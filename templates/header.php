@@ -34,10 +34,22 @@
 
 <body>
 
-<div class="loader"></div>
+<!--<div class="loader"></div>-->
 
-<ul class="list-inline text-right">
-    <li>Premier lien</li>
-    <li>Deuxieme lien</li>
-    <li>Troisieme lien</li>
-</ul>
+<nav class="navbar navbar-fixed-top">
+    <div class="container">
+        <div class="navbar-header">
+            <a title="A & M" class="navbar-brand" href="#">A & M</a>
+        </div>
+
+        <div class="collapse navbar-collapse">
+            <ul class="nav navbar-nav navbar-right">
+                <li><a title="A & M" href="#accueil">Accueil</a></li>
+                <li><a title="About" href="#about">Qui suis-je ?</a></li>
+                <li><a title="Portfolio" href="#portfolio">Portfolio</a></li>
+                <li><a title="Skills" href="#skills">Compétences</a></li>
+                <li><a title="Contact" href="#contact">Contact</a></li>
+            </ul>
+        </div>
+    </div>
+</nav>

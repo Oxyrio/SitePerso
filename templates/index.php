@@ -10,7 +10,10 @@ include('header.php');
 <div id="first">
     <div class="container">
         <div class="row">
-            <h1>Section d'entrée</h1>
+            <div class="col-md-6 col-md-offset-3">
+                <h1 class="text-center">Aymé/Matthieu</h1>
+                <h3 class="text-center">Étudiants à l'Institut de l'Internet et du Multimédia</h3>
+            </div>
         </div>
     </div>
 </div>
