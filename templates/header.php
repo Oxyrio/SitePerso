@@ -24,6 +24,10 @@
     <link rel="stylesheet" type="text/css" href="../js/tooltipster/css/tooltipster-sideTip-punk.min.css"/>
     <link rel="stylesheet" type="text/css" href="../js/tooltipster/css/tooltipster-sideTip-shadow.min.css"/>
     <link rel="stylesheet" type="text/css" href="../js/tooltipster/css/tooltipster-sideTip-light.min.css"/>
+    
+    
+    
+    
 
     <title>AM</title>
 </head>
@@ -37,14 +41,3 @@
     <li>Deuxieme lien</li>
     <li>Troisieme lien</li>
 </ul>
-
-<!-- Dans l'optique où on veut faire un site à plusieurs pages -->
-
-<!--<nav id="menu">
-    <ul>
-        <li><a href="#">Accueil</a></li>
-        <li><a href="#">Blog</a></li>
-        <li><a href="#">CV</a></li>
-        <li><a href="#">Contact</a></li>
-    </ul>
-</nav>-->

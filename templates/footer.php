@@ -4,6 +4,7 @@
     <script type="text/javascript" src="../js/tooltipster/tooltipster.bundle.min.js"></script>
     <script type="text/javascript" src="../js/tooltipster/loadingtool.js"></script>
     <script type="text/javascript" src="../js/loader/loading.js"></script>
+    <script type="text/javascript" src="../js/GoogleMap/googlemap.js"></script>
 
 
 
