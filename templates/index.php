@@ -10,9 +10,13 @@ include('header.php');
 <div id="first">
     <div class="container">
         <div class="row">
-            <div class="col-md-6 col-md-offset-3">
+            <div class="col-md-6 col-md-offset-3 accueil">
                 <h1 class="text-center">Aymé/Matthieu</h1>
                 <h3 class="text-center">Étudiants à l'Institut de l'Internet et du Multimédia</h3>
+                <a class="scroll" title="scroll" href="#fourth">
+                    <div class="scroll-btn tipped tipper-attached" data-title="about me" data-tipper-options="{&quot;direction&quot;:&quot;top&quot;,&quot;follow&quot;:&quot;true&quot;}">
+                    </div>
+                </a>
             </div>
         </div>
     </div>
@@ -21,7 +25,23 @@ include('header.php');
 <div id="second">
     <div class="container">
         <div class="row">
-            <h1>Qui suis-je ?</h1>
+            <div class="col-md-6 col-md-offset-3 about">
+                <h1 class="text-center">Qui suis-je ?</h1>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-md-4">
+                <h2 class="text-center">Test titre</h2>
+                <p>Le Lorem Ipsum est simplement du faux texte employé dans la composition et la mise en page avant impression. Le Lorem Ipsum est le faux texte standard de l'imprimerie depuis les années 1500, quand un peintre anonyme assembla ensemble des morceaux de texte pour réaliser un livre spécimen de polices de texte.</p>
+            </div>
+            <div class="col-md-4">
+                <h2 class="text-center">Test titre</h2>
+                <p>Le Lorem Ipsum est simplement du faux texte employé dans la composition et la mise en page avant impression. Le Lorem Ipsum est le faux texte standard de l'imprimerie depuis les années 1500, quand un peintre anonyme assembla ensemble des morceaux de texte pour réaliser un livre spécimen de polices de texte.</p>
+            </div>
+            <div class="col-md-4">
+                <h2 class="text-center">Test titre</h2>
+                <p class="text-justify">Le Lorem Ipsum est simplement du faux texte employé dans la composition et la mise en page avant impression. Le Lorem Ipsum est le faux texte standard de l'imprimerie depuis les années 1500, quand un peintre anonyme assembla ensemble des morceaux de texte pour réaliser un livre spécimen de polices de texte.</p>
+            </div>
         </div>
     </div>
 </div>
