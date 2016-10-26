@@ -25,20 +25,31 @@ include('header.php');
 <div id="second">
     <div class="container">
         <div class="row">
-            <div class="col-md-6 col-md-offset-3 about">
+            <div class="col-md-6 col-md-offset-3">
                 <h1 class="text-center">Qui suis-je ?</h1>
             </div>
         </div>
-        <div class="row">
+        <div class="row arrow">
+            <div class="col-md-offset-3 col-md-3">
+                <img src="../img/arrow.png" class="img-responsive" alt="Responsive image">
+            </div>
+            <div class=" col-md-3 col-md-offset-1">
+                <img src="../img/arrow.png" class="img-responsive" alt="Responsive image">
+            </div>
+        </div>
+        <div class="row logo">
             <div class="col-md-4">
+                <img src="../img/strategy.png" class="img-responsive" alt="Responsive image">
                 <h2 class="text-center">Test titre</h2>
                 <p>Le Lorem Ipsum est simplement du faux texte employé dans la composition et la mise en page avant impression. Le Lorem Ipsum est le faux texte standard de l'imprimerie depuis les années 1500, quand un peintre anonyme assembla ensemble des morceaux de texte pour réaliser un livre spécimen de polices de texte.</p>
             </div>
             <div class="col-md-4">
+                <img src="../img/target.png" class="img-responsive" alt="Responsive image">
                 <h2 class="text-center">Test titre</h2>
                 <p>Le Lorem Ipsum est simplement du faux texte employé dans la composition et la mise en page avant impression. Le Lorem Ipsum est le faux texte standard de l'imprimerie depuis les années 1500, quand un peintre anonyme assembla ensemble des morceaux de texte pour réaliser un livre spécimen de polices de texte.</p>
             </div>
             <div class="col-md-4">
+                <img src="../img/trophy.png" class="img-responsive" alt="Responsive image">
                 <h2 class="text-center">Test titre</h2>
                 <p class="text-justify">Le Lorem Ipsum est simplement du faux texte employé dans la composition et la mise en page avant impression. Le Lorem Ipsum est le faux texte standard de l'imprimerie depuis les années 1500, quand un peintre anonyme assembla ensemble des morceaux de texte pour réaliser un livre spécimen de polices de texte.</p>
             </div>

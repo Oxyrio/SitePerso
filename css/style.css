@@ -65,3 +65,15 @@
     padding-top: 23%;
     padding-bottom: 23%;
 }
+
+#second .logo img {
+    height: 64px;
+    display: block;
+    margin: 0 auto;
+}
+
+#second .arrow img {
+    height: 50px;
+    width: 200px;
+    position: absolute;
+}
