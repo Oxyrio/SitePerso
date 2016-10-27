@@ -11,8 +11,12 @@ include('header.php');
     <div class="container">
         <div class="row">
             <div class="col-md-6 col-md-offset-3 accueil">
-                <h1 class="text-center">Aymé/Matthieu</h1>
+                <h1 class="text-center">Aymé/MatthieuLOL</h1>
                 <h3 class="text-center">Étudiants à l'Institut de l'Internet et du Multimédia</h3>
+
+
+
+
                 <a class="scroll" title="scroll" href="#fourth">
                     <div class="scroll-btn tipped tipper-attached" data-title="about me" data-tipper-options="{&quot;direction&quot;:&quot;top&quot;,&quot;follow&quot;:&quot;true&quot;}">
                     </div>
@@ -21,6 +25,13 @@ include('header.php');
         </div>
     </div>
 </div>
+
+<section>
+
+    <a class="arrow-wrap" href="#second">
+        <span class="arrow"></span>
+        <!--<span class="hint">scroll</span>-->
+    </a>
 
 <div id="second">
     <div class="container">
@@ -46,6 +57,9 @@ include('header.php');
     </div>
 </div>
 
+</section>
+
+
 <div id="third">
     <div class="container">
         <div class="row">
@@ -61,6 +75,7 @@ include('header.php');
         </div>
     </div>
 </div>
+
 
 <div id="fifth">
     <div class="container">
@@ -109,6 +124,7 @@ include('header.php');
         <img src="../img/test.jpg" /> <strong>This is the content of my tooltip!</strong>
     </span>
 </div>
+
 
 
 <?php
