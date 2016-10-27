@@ -1,5 +1,4 @@
 #first {
-    background-color: yellow;
     height: 100%;
     width: 100%;
 }
@@ -160,8 +159,23 @@ section {
 }
 
 #second .arrow img {
-    height: 50px;
-    width: 200px;
+    height: 100px;
+    width: 175px;
     position: absolute;
+}
+
+/* video */
+
+#video_background {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    min-width: 100%;
+    min-height: 100%;
+    width: auto;
+    height: auto;
+    z-index: -1000;
+    overflow: hidden;
+    background-size: cover;
 }
 

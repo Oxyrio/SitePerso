@@ -13,24 +13,24 @@ include('header.php');
             <div class="col-md-6 col-md-offset-3 accueil">
                 <h1 class="text-center">Aymé/MatthieuLOL</h1>
                 <h3 class="text-center">Étudiants à l'Institut de l'Internet et du Multimédia</h3>
-
-
-
-
                 <a class="scroll" title="scroll" href="#fourth">
                     <div class="scroll-btn tipped tipper-attached" data-title="about me" data-tipper-options="{&quot;direction&quot;:&quot;top&quot;,&quot;follow&quot;:&quot;true&quot;}">
                     </div>
                 </a>
             </div>
         </div>
+        <video id="video_background" preload="auto" autoplay="autoplay" loop="loop" muted="muted">
+            <source src="../videos/leo.webm" type="video/webm">
+            <source src="../videos/leo.mp4" type="video/mp4">
+            <source src="../videos/leo.ogg" type="video/ogg">
+        </video>
     </div>
 </div>
 
 <section>
 
     <a class="arrow-wrap" href="#second">
-        <span class="arrow"></span>
-        <!--<span class="hint">scroll</span>-->
+        <span class="arrow" title="Hey you"></span>
     </a>
 
 <div id="second">
@@ -38,14 +38,6 @@ include('header.php');
         <div class="row">
             <div class="col-md-6 col-md-offset-3">
                 <h1 class="text-center">Qui suis-je ?</h1>
-            </div>
-        </div>
-        <div class="row arrow">
-            <div class="col-md-offset-3 col-md-3">
-                <img src="../img/arrow.png" class="img-responsive" alt="Responsive image">
-            </div>
-            <div class=" col-md-3 col-md-offset-1">
-                <img src="../img/arrow.png" class="img-responsive" alt="Responsive image">
             </div>
         </div>
         <div class="row logo">
