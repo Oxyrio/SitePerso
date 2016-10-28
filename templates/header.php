@@ -26,7 +26,7 @@
     <link rel="stylesheet" type="text/css" href="../js/tooltipster/css/tooltipster-sideTip-light.min.css"/>
 
     <!-- Portfolio -->
-    <link rel="stylesheet" href="../js/portfolio/portfolio.jquery.css">
+    <link rel="stylesheet" href="../js/portfolio/portfolio.jquery.min.css">
     
     
     
