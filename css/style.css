@@ -9,6 +9,11 @@
     width: 100%;
 }
 
+#second h1 {
+    padding-top: 5%;
+    padding-bottom: 5%;
+}
+
 #third {
     background-color: green;
     height: 100%;
