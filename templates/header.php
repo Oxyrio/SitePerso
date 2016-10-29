@@ -48,7 +48,7 @@
         <div class="collapse navbar-collapse">
             <ul class="nav navbar-nav navbar-right">
                 <li><a title="A & M" href="#first">Accueil</a></li>
-                <li><a title="About" href="#second">Qui suis-je ?</a></li>
+                <li><a class="special" title="About" href="#second">Qui suis-je ?</a></li>
                 <li><a title="Portfolio" href="#third" ">Portfolio</a></li>
                 <li><a title="Skills" href="#fourth">Compétences</a></li>
                 <li><a title="Contact" href="#fifth">Contact</a></li>

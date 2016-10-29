@@ -13,9 +13,8 @@ include('header.php');
             <div class="col-md-6 col-md-offset-3 accueil">
                 <h1 class="text-center">Aymé/MatthieuLOL</h1>
                 <h3 class="text-center">Étudiants à l'Institut de l'Internet et du Multimédia</h3>
-                <a class="scroll" title="scroll" href="#fourth">
-                    <div class="scroll-btn tipped tipper-attached" data-title="about me" data-tipper-options="{&quot;direction&quot;:&quot;top&quot;,&quot;follow&quot;:&quot;true&quot;}">
-                    </div>
+                <a class="scroll" title="scroll" href="#second">
+                    <div class="scroll-btn"></div>
                 </a>
             </div>
         </div>
@@ -25,13 +24,6 @@ include('header.php');
         </video>
     </div>
 </div>
-
-<section>
-
-    <a class="arrow-wrap" href="#second">
-        <span class="arrow"></span>
-    </a>
-</section>
 
 <div id="second">
     <div class="container">
