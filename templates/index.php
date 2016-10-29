@@ -32,6 +32,7 @@ include('header.php');
     <a class="arrow-wrap" href="#second">
         <span class="arrow" title="Hey you"></span>
     </a>
+</section>
 
 <div id="second">
     <div class="container">
@@ -60,7 +61,6 @@ include('header.php');
     </div>
 </div>
 
-</section>
 
 
 <div id="third">
@@ -84,7 +84,8 @@ include('header.php');
                     <div class="media"><iframe src="//player.vimeo.com/video/69666609?byline=0" width="500" height="281" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe></div>
                     <h1>Web development</h1>
                     <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer mollis nisi sit amet metus venenatis, ut congue turpis aliquet. Pellentesque eget elit sollicitudin, feugiat felis in, ornare diam. Morbi blandit sapien nibh, eu pulvinar tortor luctus nec. Aenean lobortis lacus cursus gravida adipiscing. Praesent in odio porta, placerat felis id, viverra est. Nam magna quam, tincidunt eget augue in, aliquet tristique ipsum.</p>
-                    <a href="#" class="btn btn-primary">Learn More</a>
+                    <button type="button" class="btn btn-info">Info</button>
+
                 </div>
 
                 <div id="thumb2">
