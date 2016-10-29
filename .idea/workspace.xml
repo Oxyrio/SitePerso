@@ -2,13 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="88c5540d-95f6-42b4-92d0-fe7bf90640fc" name="Default" comment="">
-      <change type="DELETED" beforePath="$PROJECT_DIR$/js/ArrowDown/arrowdown.js" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/img/arrow.png" afterPath="$PROJECT_DIR$/img/arrow.png" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/css/style.css" afterPath="$PROJECT_DIR$/css/style.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/js/menu/ease.js" afterPath="$PROJECT_DIR$/js/menu/ease.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/templates/header.php" afterPath="$PROJECT_DIR$/templates/header.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/templates/index.php" afterPath="$PROJECT_DIR$/templates/index.php" />
     </list>
     <ignored path="SitePerso.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -50,17 +45,17 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="style.css" pinned="false" current-in-tab="false">
+      <file leaf-file-name="style.css" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/css/style.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-10.958333">
-              <caret line="237" column="22" selection-start-line="237" selection-start-column="22" selection-end-line="237" selection-end-column="22" />
+            <state vertical-scroll-proportion="0.33128834">
+              <caret line="34" column="23" selection-start-line="34" selection-start-column="23" selection-end-line="34" selection-end-column="23" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="ease.js" pinned="false" current-in-tab="true">
+      <file leaf-file-name="ease.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/js/menu/ease.js">
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="0.0">
@@ -114,8 +109,8 @@
         <option value="$PROJECT_DIR$/js/smoothscroll-for-websites/plugins.js" />
         <option value="$PROJECT_DIR$/templates/header.php" />
         <option value="$PROJECT_DIR$/templates/index.php" />
-        <option value="$PROJECT_DIR$/css/style.css" />
         <option value="$PROJECT_DIR$/js/menu/ease.js" />
+        <option value="$PROJECT_DIR$/css/style.css" />
       </list>
     </option>
   </component>
@@ -314,7 +309,7 @@
     <option name="totallyTimeSpent" value="3828000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="23" width="1280" height="719" extended-state="6" />
+    <frame x="0" y="23" width="1280" height="719" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.19789983" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
@@ -630,18 +625,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/css/style.css">
+    <entry file="file://$PROJECT_DIR$/js/menu/ease.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-10.958333">
-          <caret line="237" column="22" selection-start-line="237" selection-start-column="22" selection-end-line="237" selection-end-column="22" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/templates/header.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-5.9583335">
-          <caret line="50" column="39" selection-start-line="50" selection-start-column="39" selection-end-line="50" selection-end-column="39" />
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="20" selection-start-line="0" selection-start-column="20" selection-end-line="0" selection-end-column="20" />
           <folding />
         </state>
       </provider>
@@ -654,10 +641,18 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/js/menu/ease.js">
+    <entry file="file://$PROJECT_DIR$/templates/header.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="0" column="20" selection-start-line="0" selection-start-column="20" selection-end-line="0" selection-end-column="20" />
+        <state vertical-scroll-proportion="-5.9583335">
+          <caret line="50" column="39" selection-start-line="50" selection-start-column="39" selection-end-line="50" selection-end-column="39" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/css/style.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.33128834">
+          <caret line="34" column="23" selection-start-line="34" selection-start-column="23" selection-end-line="34" selection-end-column="23" />
           <folding />
         </state>
       </provider>
