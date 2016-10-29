@@ -134,7 +134,7 @@ include('header.php');
 <div id="fifth">
     <div class="container">
         <div class="row">
-            <h1>Contact</h1>
+            <h1 class="text-center">Contact</h1>
 
 
             <div id="map"></div>
