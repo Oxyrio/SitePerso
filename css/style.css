@@ -243,3 +243,13 @@ section {
     z-index: 3900;
     opacity: .8;
 }
+
+/* a nav */
+.nav a, .navbar-header a {
+    background: transparent !important;
+    color: #fff;
+    text-shadow:0 0 3px #f2c23e !important;
+}
+
+.nav a:hover {
+}
