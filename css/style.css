@@ -40,6 +40,7 @@ body {
     height: 100%;
     width: 100%;
     padding-bottom: 3%;
+    padding-top: 5%;
 }
 
 #second h1 {
@@ -233,7 +234,7 @@ section {
 
 /* video */
 
-#video_background {
+#video{
     position: absolute;
     bottom: 0;
     left: 0;
@@ -241,7 +242,7 @@ section {
     min-height: 100%;
     width: auto;
     height: auto;
-    z-index: -1000;
+    z-index: 1;
     overflow: hidden;
     background-size: cover;
 }
@@ -261,4 +262,9 @@ section {
     -o-transition-duration: 1s;
     -webkit-transition-duration: 1s;
     transition-duration: 1s;
+}
+
+.accueil{
+    color: white;
+    z-index: 2;
 }

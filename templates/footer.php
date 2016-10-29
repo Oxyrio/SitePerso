@@ -9,6 +9,7 @@
     <script type="text/javascript" src="../js/portfolio/portfolio.jquery.min.js"></script>
     <script type="text/javascript" src="../js/portfolio/script.js"></script>
     <script type="text/javascript" src="../js/menu/script.js"></script>
+    <script type="text/javascript" src="../js/menu/ease.js"></script>
 
 
 

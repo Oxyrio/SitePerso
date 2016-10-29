@@ -19,7 +19,7 @@ include('header.php');
                 </a>
             </div>
         </div>
-        <video id="video_background" preload="auto" autoplay="autoplay" loop="loop" muted="muted">
+        <video id="video" preload="auto" autoplay="autoplay" loop="loop" muted="muted" height="300" width="150">
             <source src="../videos/dreamscapes.webm" type="video/webm">
             <source src="../videos/dreamscapes.mp4" type="video/mp4">
         </video>
