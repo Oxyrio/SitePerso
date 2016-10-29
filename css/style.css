@@ -38,17 +38,26 @@ body {
     background-color: white;
     height: 100%;
     width: 100%;
+    padding-bottom: 3%;
 }
 
 #second h1 {
     padding-top: 5%;
     padding-bottom: 5%;
+    font-size: 2em;
 }
 
 #third {
-    background-color: green;
+    background-color: darkgray;
     height: 100%;
     width: 100%;
+    padding-bottom: 3%;
+}
+
+#third h1 {
+    padding-top: 3%;
+    padding-bottom: 3%;
+    font-size: 2em;
 }
 
 #fourth {

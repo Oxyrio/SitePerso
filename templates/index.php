@@ -69,37 +69,33 @@ include('header.php');
             <h1 class="text-center">Portfolio</h1>
             <ul class="thumbs">
                 <li>
-                    <a href="#thumb1" class="thumbnail" style="background-image: url('../js/portfolio/img/thumb1.jpg')"><h4>Web development</h4><span class="description">Get the latest technologies</span></a>
+                    <a href="#thumb1" class="thumbnail" style="background-image: url('../js/portfolio/img/thumb1.jpg')"><h4>BAP "Chez Rose-Marie"</h4><span class="description">Site d'un Restaurant Corse</span></a>
                 </li>
                 <li>
-                    <a href="#thumb2" class="thumbnail" style="background-image: url('../js/portfolio/img/thumb2.jpg')"><h4>SEO</h4><span class="description">Fast and reliable performance</span></a>
+                    <a href="#thumb2" class="thumbnail" style="background-image: url('../js/portfolio/img/thumb2.jpg');"><h4>BAP "Qualitik"</h4><span class="description">Modification d'un Site d'un cabinet de conseil</span></a>
                 </li>
                 <li>
-                    <a href="#thumb3" class="thumbnail" style="background-image: url('../js/portfolio/img/thumb3.jpg')"><h4>Web design</h4><span class="description">Slick and responsive website</span></a>
+                    <a href="#thumb3" class="thumbnail" style="background-image: url('../js/portfolio/img/thumb3.jpg')"><h4>BAP "La Poste R&D"</h4><span class="description">Ubérisation de la livraison de courrier</span></a>
                 </li>
             </ul>
 
             <div class="portfolio-content">
                 <div id="thumb1">
                     <div class="media"><iframe src="//player.vimeo.com/video/69666609?byline=0" width="500" height="281" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe></div>
-                    <h1>Web development</h1>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer mollis nisi sit amet metus venenatis, ut congue turpis aliquet. Pellentesque eget elit sollicitudin, feugiat felis in, ornare diam. Morbi blandit sapien nibh, eu pulvinar tortor luctus nec. Aenean lobortis lacus cursus gravida adipiscing. Praesent in odio porta, placerat felis id, viverra est. Nam magna quam, tincidunt eget augue in, aliquet tristique ipsum.</p>
-                    <button type="button" class="btn btn-info">Info</button>
-
+                    <h1>BAP "Chez Rose-Marie"</h1>
+                    <p>C'est mon projet n°1</p>
                 </div>
 
                 <div id="thumb2">
-                    <div class="media"><img src="../js/portfolio/img/media.jpg"/></div>
-                    <h1>WESH ALORS</h1>
-                    <p>Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Suspendisse potenti. Integer a posuere tortor. Praesent malesuada mauris massa, non blandit neque tempus nec. Quisque fermentum nunc non hendrerit tempus.</p>
-                    <a href="#" class="btn btn-primary">Learn More</a>
+                    <div class="media"><img src="../img/editor.png"/></div>
+                    <h1>BAP "Qualitik"</h1>
+                    <p>C'est mon projet n°2</p>
                 </div>
 
                 <div id="thumb3">
                     <div class="media"><img src="../js/portfolio/img/media.jpg"/></div>
-                    <h1>Web design</h1>
-                    <p>Ut condimentum eros bibendum metus lacinia, ac condimentum justo faucibus. Nam nec dui convallis, sodales sapien in, gravida justo. Pellentesque pulvinar massa a nisl iaculis, quis iaculis elit tincidunt.</p>
-                    <a href="#" class="btn btn-primary">Learn More</a>
+                    <h1>BAP "La Poste R&D"</h1>
+                    <p>C'est mon projet n°3</p>
                 </div>
             </div>
         </div>
@@ -156,26 +152,25 @@ include('header.php');
                     src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBintebCEawD93XnPnDvdSJlrOgh-qn1q4&callback=initMap">
             </script>
 
-            <form>
-                <div class="form-group">
-                    <label for="exampleInputEmail1">Adresse Email</label>
-                    <input type="email" class="form-control" id="exampleInputEmail1" placeholder="Email">
-                </div>
-                <div class="form-group">
-                    <label for="exampleInputPassword1">Message</label>
-                    <textarea class="form-control" rows="3" placeholder="Message"></textarea>
-                </div>
+            <div class="colonne_fifth" style="width: 33.3333%; height: 100%;  float: left; text-align: center; padding: 1.5%; font-size: 1.5em;">
+                <h2>mail@gmail.com</h2>
+            </div>
 
-                <button type="submit" class="btn btn-default" style="margin-bottom: 2%;">Envoyer</button>
+            <div class="colonne_fifth" style="width: 33.3333%; height: 100%;  float: left; text-align: center; padding: 1.5%; font-size: 1.5em;">
+                <h2>O6O6O6O6O6</h2>
+            </div>
 
-                <p>Vous pouvez jeter un coup d'oeil à mon CV juste en cliquant sur le bouton ci-dessous<p>
+            <div class="colonne_fifth" style="width: 33.3333%; height: 100%;  float: left; text-align: center; padding: 1.5%; font-size: 1.5em;">
+                <h2>linkdin.com</h2>
+            </div>
 
-                    <a href="../img/Rendu1_WEB2_JACQUET_ENGEL_INDRIANJAFY_LALBAT.pdf" download>
-                        <button type="button" class="btn btn-success btn-lg">Télécharger mon CV</button>
-                    </a>
+            <button type="button" class="btn btn-default btn-lg">
+                <a href="#" download>
+                    Mon CV
+                </a>
+            </button>
 
-                <p><b>Note:</b> The download attribute is not supported in Edge version 12, IE, Safari or Opera version 12 (and earlier).</p>
-            </form>
+
 
         </div>
     </div>
