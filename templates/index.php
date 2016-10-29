@@ -90,7 +90,7 @@ include('header.php');
 
                 <div id="thumb2">
                     <div class="media"><img src="../js/portfolio/img/media.jpg"/></div>
-                    <h1>SEO</h1>
+                    <h1>WESH ALORS</h1>
                     <p>Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Suspendisse potenti. Integer a posuere tortor. Praesent malesuada mauris massa, non blandit neque tempus nec. Quisque fermentum nunc non hendrerit tempus.</p>
                     <a href="#" class="btn btn-primary">Learn More</a>
                 </div>
@@ -110,6 +110,35 @@ include('header.php');
     <div class="container">
         <div class="row">
             <h1>Compétences</h1>
+
+            <div id="log_comp" class="logun">
+                <img src="../img/editor.png">
+                <h3>Design</h3>
+            </div>
+
+            <div id="log_comp" class="logun">
+                <img src="../img/customer-service.png">
+                <h3>Relation Client</h3>
+            </div>
+
+            <div id="log_comp" class="logun">
+                <img src="../img/browser.png">
+                <h3>Développement</h3>
+            </div>
+
+            <div id="log_comp" class="logun">
+                <img src="../img/megaphone.png">
+                <h3>Commmunication</h3>
+            </div>
+
+            <div id="log_comp" class="logun">
+                <img src="../img/analytics.png">
+                <h3>Référencement</h3>
+            </div>
+
+
+
+
         </div>
     </div>
 </div>
