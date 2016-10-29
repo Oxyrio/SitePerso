@@ -32,6 +32,7 @@ body {
 #first {
     height: 100%;
     width: 100%;
+
 }
 
 #second {
@@ -249,4 +250,15 @@ section {
 
 .thumbs {
     display: block;
+}
+
+/* test nav menu */
+
+.revelant {
+    background: black;
+    padding: 0 0;
+    -moz-transition-duration: 1s;
+    -o-transition-duration: 1s;
+    -webkit-transition-duration: 1s;
+    transition-duration: 1s;
 }

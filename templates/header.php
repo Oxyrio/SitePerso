@@ -37,7 +37,7 @@
 
 <body>
 
-<!--<div class="loader"></div>-->
+<!--<div class="loader"></div> "navbar navbar-fixed-top top-nav-sticked" -->
 
 <nav class="navbar navbar-fixed-top">
     <div class="container">

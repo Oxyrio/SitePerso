@@ -20,9 +20,8 @@ include('header.php');
             </div>
         </div>
         <video id="video_background" preload="auto" autoplay="autoplay" loop="loop" muted="muted">
-            <source src="../videos/leo.webm" type="video/webm">
-            <source src="../videos/leo.mp4" type="video/mp4">
-            <source src="../videos/leo.ogg" type="video/ogg">
+            <source src="../videos/dreamscapes.webm" type="video/webm">
+            <source src="../videos/dreamscapes.mp4" type="video/mp4">
         </video>
     </div>
 </div>
@@ -30,7 +29,7 @@ include('header.php');
 <section>
 
     <a class="arrow-wrap" href="#second">
-        <span class="arrow" title="Hey you"></span>
+        <span class="arrow"></span>
     </a>
 </section>
 

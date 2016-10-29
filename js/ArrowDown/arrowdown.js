@@ -9,7 +9,7 @@ $(window).scroll( function(){
     //get height of window
     var windowHeight = $(window).height();
 
-    //set position as percentage of how far the user has scrolled 
+    //set position as percentage of how far the user has scrolled
     var position = topWindow / windowHeight;
     //invert the percentage
     position = 1 - position;
