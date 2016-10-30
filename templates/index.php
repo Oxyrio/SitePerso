@@ -13,15 +13,19 @@ include('header.php');
             <div class="col-md-6 col-md-offset-3 accueil">
                 <h1 class="text-center">Aymé/MatthieuLOL</h1>
                 <h3 class="text-center">Étudiants à l'Institut de l'Internet et du Multimédia</h3>
-                <a class="scroll" title="scroll" href="#second">
-                    <div class="scroll-btn"></div>
-                </a>
             </div>
         </div>
         <video id="video" preload="auto" autoplay="autoplay" loop="loop" muted="muted">
             <source src="../videos/dreamscapes.webm" type="video/webm">
             <source src="../videos/dreamscapes.mp4" type="video/mp4">
         </video>
+        <div class="container">
+            <div class="row arrow">
+                <a class="scroll" title="scroll" href="#second">
+                    <div class="scroll-btn"><span class="tooltip" title="Scroll down motherfucker">Some text</span></div>
+                </a>
+            </div>
+        </div>
     </div>
 </div>
 

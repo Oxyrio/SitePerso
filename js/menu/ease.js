@@ -1,1 +1,1 @@
-$(".nav a, .accueil a").smoothScroll({offset:-50});
+$(".nav a, .arrow a").smoothScroll({offset:-50});
