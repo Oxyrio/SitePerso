@@ -64,10 +64,46 @@ body {
 }
 
 #fourth {
-    height: 400px;
+    height: 100%;
     width: 100%;
     background-image: url("../img/pan.jpg");
     background-size: cover;
+    background-attachment: fixed;
+}
+
+#fourth h1 {
+    padding-top: 3%;
+    padding-bottom: 3%;
+    font-size: 2em;
+}
+
+#fifth h1 {
+    padding-top: 3%;
+    padding-bottom: 3%;
+    font-size: 2em;
+}
+
+.colonne_fifth {
+    width: 33.3333%;
+    height: 100%;
+    float: left;
+    text-align: center;
+    padding: 1.5%;
+    font-size: 1.3em;
+}
+
+.colonne_fourth {
+    width: 20%;
+    height: 100%;
+    float: left;
+    text-align: center;
+    font-size: 1.3em;
+    color: white;
+    padding-bottom: 2%;
+}
+
+.colonne_fourth img {
+    height: 150px;
 }
 
 #log_comp {
@@ -91,10 +127,8 @@ body {
 }
 
 #fifth {
-    background-color: blanchedalmond;
     height: 100%;
     width: 100%;
-    padding-bottom: 4%;
 }
 
 .tooltip_templates { display: none; }
@@ -252,4 +286,11 @@ section {
 }
 
 .nav a:hover {
+}
+
+
+footer {
+    text-align: center;
+    padding: 2%;
+    font-size: 1.3em;
 }

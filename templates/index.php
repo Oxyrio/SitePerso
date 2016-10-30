@@ -96,9 +96,36 @@ include('header.php');
 <div id="fourth">
     <div class="container">
         <div class="row">
-            <h1>Compétences</h1>
+            <h1 class="text-center">Compétences</h1>
 
-            <div id="log_comp" class="logun">
+
+
+            <div class="colonne_fourth">
+                <img src="../img/editor.png">
+                <h3>Design</h3>
+            </div>
+
+            <div class="colonne_fourth">
+                <img src="../img/customer-service.png">
+                <h3>Relation Client</h3>
+            </div>
+
+            <div class="colonne_fourth">
+                <img src="../img/browser.png">
+                <h3>Développement</h3>
+            </div>
+
+            <div class="colonne_fourth">
+                <img src="../img/megaphone.png">
+                <h3>Commmunication</h3>
+            </div>
+
+            <div class="colonne_fourth">
+                <img src="../img/analytics.png">
+                <h3>Référencement</h3>
+            </div>
+
+         <!--   <div id="log_comp" class="logun">
                 <img src="../img/editor.png">
                 <h3>Design</h3>
             </div>
@@ -122,7 +149,7 @@ include('header.php');
                 <img src="../img/analytics.png">
                 <h3>Référencement</h3>
             </div>
-
+-->
 
 
 
@@ -143,23 +170,27 @@ include('header.php');
                     src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBintebCEawD93XnPnDvdSJlrOgh-qn1q4&callback=initMap">
             </script>
 
-            <div class="colonne_fifth" style="width: 33.3333%; height: 100%;  float: left; text-align: center; padding: 1.5%; font-size: 1.5em;">
-                <h2>mail@gmail.com</h2>
+            <div class="colonne_fifth">
+                <p style="margin-bottom: 2%;">mail@gmail.com</p>
+                <p>O6O6O6O6O6</p>
             </div>
 
-            <div class="colonne_fifth" style="width: 33.3333%; height: 100%;  float: left; text-align: center; padding: 1.5%; font-size: 1.5em;">
-                <h2>O6O6O6O6O6</h2>
+            <div class="colonne_fifth">
+                <p>Vous pouvez me trouver au Pôle Universitaire Léonard de Vinci si vous souhaitez me rencontrer</p>
             </div>
 
-            <div class="colonne_fifth" style="width: 33.3333%; height: 100%;  float: left; text-align: center; padding: 1.5%; font-size: 1.5em;">
-                <h2>linkdin.com</h2>
+            <div class="colonne_fifth">
+                <p style="margin-bottom: 2%;">linkdin.com</p>
+
+                <button type="button" class="btn btn-default btn-lg">
+                    <a href="#" download>
+                        Mon CV
+                    </a>
+                </button>
+
             </div>
 
-            <button type="button" class="btn btn-default btn-lg">
-                <a href="#" download>
-                    Mon CV
-                </a>
-            </button>
+
 
 
 
