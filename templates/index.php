@@ -12,8 +12,8 @@ include('header.php');
         <div class="row">
             <div class="col-md-6 col-md-offset-3 accueil">
                 <div class="testh">
-                    <h1 class="text-left" style="font-size: 4em">M & A</h1>
-                    <h3 class="text-left" style="font-size: 1.4em">Étudiants à l'Institut de l'Internet et du Multimédia</h3>
+                    <h1 class="text-left">M & A</h1>
+                    <h3 class="text-left">Étudiants à l'Institut de l'Internet et du Multimédia</h3>
                 </div>
             </div>
         </div>
