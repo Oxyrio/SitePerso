@@ -169,7 +169,16 @@ body {
     padding-bottom: 25%;
 }
 
+.accueil h1{
+    border-left: 1px solid white;
+    padding-left: 1.5%;
+    padding-bottom: 2%;
+}
 
+.accueil h3 {
+    border-left: 1px solid white;
+    padding-left: 2%
+}
 /* the important styles */
 
 
