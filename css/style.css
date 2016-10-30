@@ -51,7 +51,7 @@ body {
 }
 
 #third {
-    background-color: darkgray;
+    background-color: black;
     height: 100%;
     width: 100%;
     padding-bottom: 3%;
@@ -61,12 +61,13 @@ body {
     padding-top: 3%;
     padding-bottom: 3%;
     font-size: 2em;
+    color: white;
 }
 
 #fourth {
     height: 100%;
     width: 100%;
-    background-image: url("../img/pan.jpg");
+    background-image: url("../img/pan2.jpg");
     background-size: cover;
     background-attachment: fixed;
 }
@@ -103,7 +104,7 @@ body {
 }
 
 .colonne_fourth img {
-    height: 150px;
+    height: 120px;
 }
 
 #log_comp {

@@ -101,28 +101,28 @@ include('header.php');
 
 
             <div class="colonne_fourth">
-                <img src="../img/editor.png">
-                <h3>Design</h3>
+                <img src="../img/logocomp/logo_site_htmlcss.png">
+                <h3>HTML/CSS</h3>
             </div>
 
             <div class="colonne_fourth">
-                <img src="../img/customer-service.png">
-                <h3>Relation Client</h3>
+                <img src="../img/logocomp/logo_site_php.png">
+                <h3>PHP/MySQL</h3>
             </div>
 
             <div class="colonne_fourth">
-                <img src="../img/browser.png">
-                <h3>Développement</h3>
+                <img src="../img/logocomp/logo_site_js.png">
+                <h3>JavaScript</h3>
             </div>
 
             <div class="colonne_fourth">
-                <img src="../img/megaphone.png">
-                <h3>Commmunication</h3>
+                <img src="../img/logocomp/logo_site_ionic.png">
+                <h3>Ionic</h3>
             </div>
 
             <div class="colonne_fourth">
-                <img src="../img/analytics.png">
-                <h3>Référencement</h3>
+                <img src="../img/logocomp/logo_site_adobe.png">
+                <h3>Suite Adobe</h3>
             </div>
 
          <!--   <div id="log_comp" class="logun">
