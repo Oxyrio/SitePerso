@@ -11,8 +11,10 @@ include('header.php');
     <div class="container">
         <div class="row">
             <div class="col-md-6 col-md-offset-3 accueil">
-                <h1 class="text-left" style="font-size: 4em">M & A</h1>
-                <h3 class="text-left" style="font-size: 1.4em">Étudiants à l'Institut de l'Internet et du Multimédia</h3>
+                <div class="testh">
+                    <h1 class="text-left" style="font-size: 4em">M & A</h1>
+                    <h3 class="text-left" style="font-size: 1.4em">Étudiants à l'Institut de l'Internet et du Multimédia</h3>
+                </div>
             </div>
         </div>
         <video id="video" preload="auto" autoplay="autoplay" loop="loop" muted="muted">
