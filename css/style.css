@@ -195,11 +195,6 @@ section {
     100% { top:0; }
 }
 
-.arrow-wrap .arrow {
-    -webkit-animation: arrows 2.8s 0.4s;
-    -webkit-animation-delay: 3s;
-}
-
 
 #second .logo img {
     height: 64px;
@@ -284,4 +279,8 @@ footer {
 
 .active {
     color: #f71169 !important;
+    -moz-transition-duration: 1s;
+    -o-transition-duration: 1s;
+    -webkit-transition-duration: 1s;
+    transition-duration: 1s;
 }

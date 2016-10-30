@@ -21,8 +21,8 @@ include('header.php');
         </video>
         <div class="container">
             <div class="row arrow">
-                <a class="scroll" title="scroll" href="#second">
-                    <div class="scroll-btn"><span class="tooltip" title="Scroll down motherfucker">Some text</span></div>
+                <a class="scroll" href="#second">
+                    <div class="scroll-btn"><span class="tooltip" title="Scroll down motherfucker">Scroll down</span></div>
                 </a>
             </div>
         </div>
