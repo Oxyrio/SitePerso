@@ -1,5 +1,6 @@
 $(window).scroll(function(){
-    $(".navbar").offset().top>50?$(".navbar-fixed-top").addClass("revelant"):$(".navbar-fixed-top").removeClass("revelant")});
+    $(".navbar").offset().top>50?$(".navbar-fixed-top").addClass("revelant"):$(".navbar-fixed-top").removeClass("revelant");
+});
 
 $(document).ready(function () {
     $(document).on("scroll", onScroll);
@@ -10,7 +11,7 @@ $(document).ready(function () {
 
         $('a').each(function () {
             $(this).removeClass('active');
-        })
+        });
         $(this).addClass('active');
 
     });

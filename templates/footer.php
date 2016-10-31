@@ -18,6 +18,8 @@
     <script type="text/javascript" src="../js/smoothscroll-for-websites/SmoothScroll.js"></script>
     <script type="text/javascript" src="../js/menu/ease.js"></script>
     <script type="text/javascript" src="../js/menu/script.js"></script>
+    <!-- Fadein -->
+    <script type="text/javascript" src="../js/fadein/script.js"></script>
 
 
 </footer>
