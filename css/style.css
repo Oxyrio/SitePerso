@@ -294,3 +294,13 @@ footer {
     padding: 2%;
     font-size: 1.3em;
 }
+
+/* Test covervid */
+
+.covervid-wrapper {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}

@@ -20,6 +20,9 @@
     <script type="text/javascript" src="../js/menu/script.js"></script>
     <!-- Fadein -->
     <script type="text/javascript" src="../js/fadein/script.js"></script>
+    <!--CoverVid-->
+    <script type="text/javascript" src="../js/CoverVid/covervid.min.js"></script>
+    <script type="text/javascript" src="../js/CoverVid/script.js"></script>
 
 
 </footer>
