@@ -15,17 +15,12 @@ include('header.php');
                 <h3 class="text-left">Étudiants à l'Institut de l'Internet et du Multimédia</h3>
             </div>
         </div>
-
         <div class="covervid-wrapper">
-            <video class="covervid-video" muted="muted" autoplay loop poster="../img/poster.jpg">
+            <video class="covervid-video" muted="muted" autoplay loop>
                 <source src="../videos/dreamscapes.webm" type="video/webm">
                 <source src="../videos/dreamscapes.mp4" type="video/mp4">
             </video>
         </div>
-        <!--<video id="video" preload="auto" autoplay="autoplay" loop="loop" muted="muted">
-            <source src="../videos/dreamscapes.webm" type="video/webm">
-            <source src="../videos/dreamscapes.mp4" type="video/mp4">
-        </video>-->
         <div class="container">
             <div class="row arrow">
                 <a class="scroll" href="#second">

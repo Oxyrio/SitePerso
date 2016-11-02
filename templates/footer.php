@@ -23,6 +23,20 @@
     <!--CoverVid-->
     <script type="text/javascript" src="../js/CoverVid/covervid.min.js"></script>
     <script type="text/javascript" src="../js/CoverVid/script.js"></script>
+    <!--Loader-->
+    <script type="text/javascript" src="../js/loader/royal_preloader.min.js"></script>
+    <script type="text/javascript">
+        (function() {
+            Royal_Preloader.config({
+                mode:           'text', // 'number', "text" or "logo"
+                text:           'M & A',
+                timeout:        0,
+                showInfo:       true,
+                opacity:        1
+            });
+        })(jQuery);
+    </script>
+
 
 
 </footer>

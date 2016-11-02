@@ -27,17 +27,14 @@
 
     <!-- Portfolio -->
     <link rel="stylesheet" href="../js/portfolio/portfolio.jquery.min.css">
-
-
-
-
+    <!-- Royal preloader -->
+    <link rel="stylesheet" href="../css/royal_preloader.css"/>
 
 
     <title>AM</title>
 </head>
 
 <body>
-
 <!--<div class="loader"></div> "navbar navbar-fixed-top top-nav-sticked" -->
 
 <nav class="navbar navbar-fixed-top">
