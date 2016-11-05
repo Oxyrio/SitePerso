@@ -17,8 +17,9 @@ include('header.php');
         </div>
         <div class="covervid-wrapper">
             <video class="covervid-video" muted="muted" autoplay loop>
-                <source src="../videos/dreamscapes.webm" type="video/webm">
-                <source src="../videos/dreamscapes.mp4" type="video/mp4">
+                <source src="../videos/landscape.webm" type="video/webm">
+                <source src="../videos/landscape.mp4" type="video/mp4">
+                <source src="../videos/landscape.ogg" type="video/ogg">
             </video>
         </div>
         <div class="container">
@@ -195,14 +196,10 @@ include('header.php');
                 </button>
 
             </div>
-
-
-
-
-
         </div>
     </div>
 </div>
+
 
 <!-- TOOLSTIP
 
@@ -217,7 +214,85 @@ include('header.php');
     </span>
 </div>-->
 
+<div id="sixth">
+    <div class="container">
+        <div class="row">
+            <div id="timeline">
+                <div class="dot" id="one">
+                    <a class="showSingle" target="1"></a>
+                    <span></span>
+                    <h3>2013</h3>
+                </div>
 
+                <div class="dot" id="two">
+                    <a class="showSingle" target="2"></a>
+                    <span></span>
+                    <h3>2014</h3>
+                </div>
+                <div class="dot" id="three">
+                    <a class="showSingle" target="3"></a>
+                    <span></span>
+                    <h3>2016</h3>
+                </div>
+                <div class="inside"></div>
+            </div>
+
+            <!-- Contenu des slideToggle() -->
+            <div class="targetDiv">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-md-6 col-md-offset-3">
+                            <h2>Ici c'est l'année du bac !</h2>
+                            <p></p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="targetDiv">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-md-6 col-md-offset-3">
+                            <h2>Admis à l'IIM dans l'optique d'y faire un master</h2>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="targetDiv">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-md-6 col-md-offset-3">
+                            <h2>Actuellement à la recherche d'un stage de 6 mois dans le domaine du web !</h2>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+
+
+            <!-- Modals -->
+
+            <article class='modal one'>
+                <a>X</a>
+                <h2>2013 : Obtention de mon Bac ES !</h2>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptates magnam excepturi laboriosam minima soluta, quae. Sunt repellat totam non, et sed in veniam fuga odio eius! Nesciunt amet optio recusandae? Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ipsum sit dolor sint amet, corporis aperiam nihil, quas, accusantium enim suscipit rem non possimus officiis. Recusandae hic at, fugiat eos eveniet.</p>
+            </article>
+
+            <article class='modal two'>
+                <a>X</a>
+                <h2>Salut les louzeurs</h2>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptates magnam excepturi laboriosam minima soluta, quae. Sunt repellat totam non, et sed in veniam fuga odio eius! Nesciunt amet optio recusandae? Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ipsum sit dolor sint amet, corporis aperiam nihil, quas, accusantium enim suscipit rem non possimus officiis. Recusandae hic at, fugiat eos eveniet.</p>
+            </article>
+
+            <article class='modal three'>
+                <a>X</a>
+                <h2>Eat 'em all !</h2>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptates magnam excepturi laboriosam minima soluta, quae. Sunt repellat totam non, et sed in veniam fuga odio eius! Nesciunt amet optio recusandae? Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ipsum sit dolor sint amet, corporis aperiam nihil, quas, accusantium enim suscipit rem non possimus officiis. Recusandae hic at, fugiat eos eveniet.</p>
+            </article>
+        </div>
+    </div>
+</div>
 
 <?php
 

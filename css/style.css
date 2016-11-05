@@ -133,6 +133,11 @@ body {
     width: 100%;
 }
 
+#sixth {
+    width: 100%;
+    height: 100%;
+}
+
 .tooltip_templates { display: none; }
 
 .loader {
@@ -175,12 +180,14 @@ body {
     padding-left: 1.5%;
     padding-bottom: 2%;
     font-size: 4em;
+    text-shadow: 0 0 5px black;
 }
 
 .accueil h3 {
     border-left: 1px solid white;
     padding-left: 2%;
     font-size: 1.4em;
+    text-shadow: 0 0 5px black;
 }
 /* the important styles */
 
@@ -355,7 +362,6 @@ body.royal_loader {
     text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.5);
     text-align: center;
     margin: -90px 0px 0px -90px;
-    background-image: url('../images/loader.gif');
     background-repeat: no-repeat;
     background-position: 50% 0;
     padding-top: 80px;
@@ -465,4 +471,138 @@ body.royal_loader {
     0% { opacity: 0; top: 50%; }
     20% {opacity: 1; top: 40%; }
     100% { opacity: 0; top: 20%;}
+}
+
+/* test timeline */
+
+#sixth label {
+    display: block;
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    background-color: #e74c3c;
+    cursor: pointer;
+    position: absolute;
+    top: 18%;
+    left: 12%;
+    transition: all .3s ease;
+}
+#sixth input:checked + label {
+    left: 55%;
+    background-color: #7b3;
+}
+div#timeline {
+    background-color: #2980b9;
+    margin-top: 150px;
+    height: 5px;
+    width: 100%;
+    position: relative;
+    box-shadow: 0 0 5px rgba(0,0,0,0.2) inset;
+    margin-bottom: 5%;
+}
+#sixth .inside {
+    position: absolute;
+    height: 4px;
+    background-color: #fff;
+    width: 0%;
+    top: 3px;
+    left: 0;
+}
+#sixth .dot {
+/ /box-shadow: 0 0 5 px rgba(0, 0, 0, 0.2) inset;z-index: 99;transition: 0.3s ease-in-out;width: 30px;height: 30px;border-radius: 50%;position: absolute;top: -12px;text-align: center;cursor: pointer;}
+#sixth .dot:nth-child(1){
+    left: 25%;
+    background-color: #2c3e50;
+}
+#sixth .dot:nth-child(2){
+    left: 48%;
+    background-color: #e74c3c;
+}
+#sixth .dot:nth-child(3){
+    right: 25%;
+    background-color: #7b3;
+}
+#sixth .dot:hover {
+    transform: scale(1.2);
+}
+#sixth span {
+    display: inline-block;
+    margin-top: 5px;
+    width: 20px;
+    height: 20px;
+    background-color: #fff;
+    position: relative;
+    border-radius: 50%;
+    box-shadow: 0 0 5px rgba(0,0,0,0.2);
+}
+
+#sixth article {
+    display: none;
+    position: relative;
+    top: 30px;
+    max-width: 960px;
+    background-color: #fff;
+    padding: 20px;
+    margin: auto;
+}
+#sixth p {
+    line-height: 130%;
+}
+
+div.mask {
+    display: none;
+    left: 0;
+    top: 0;
+    position: fixed;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0,0,0,0.7);
+    z-index: 99999;
+}
+#sixth article {
+    position: relative;
+    top: -100%;
+    margin-top: 50px;
+    max-width: 960px;
+    background-color: #fff;
+    padding: 20px;
+    margin: auto;
+    box-shadow: 0 0 30px rgba(0, 0, 0, 0.4);
+}
+#sixth h2 {
+    font-family: merriweather, sans-serif;
+    font-size: 2.5em;
+    padding: 10px 0;
+    text-align: center;
+}
+#sixth p {
+    line-height: 130%;
+}
+
+#sixth .modal  {
+    border-radius: 15px;
+}
+
+#sixth a {
+    float: right;
+    padding-right: 1.5%;
+    text-decoration: none;
+    cursor: pointer;
+    color: #8f959e;
+}
+
+#sixth h3 {
+    font-family: roboto;
+    font-size: 1.1rem;
+    display: block;
+    position: relative;
+    top: -60px;
+    text-align: center;
+}
+.targetDiv {
+    display: none;
+}
+
+.targetDiv h2 {
+    border-bottom: 2px solid black;
 }

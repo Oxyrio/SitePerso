@@ -23,19 +23,33 @@
     <!--CoverVid-->
     <script type="text/javascript" src="../js/CoverVid/covervid.min.js"></script>
     <script type="text/javascript" src="../js/CoverVid/script.js"></script>
-    <!--Loader-->
+    <!--Loader
     <script type="text/javascript" src="../js/loader/royal_preloader.min.js"></script>
     <script type="text/javascript">
         (function() {
             Royal_Preloader.config({
-                mode:           'text', // 'number', "text" or "logo"
+                mode:           'number', // 'number', "text" or "logo"
                 text:           'M & A',
                 timeout:        0,
                 showInfo:       true,
                 opacity:        1
             });
         })(jQuery);
+    </script>-->
+    <!--<script type="text/javascript" src="../js/timeline/script.js"></script>-->
+    <script type="text/javascript">
+        (function () {
+            jQuery('.dot').click(function () {
+                var index = $(this).index(),
+                    newTarget = jQuery('.targetDiv').eq(index);
+                jQuery('.targetDiv').not(newTarget).slideUp();
+                newTarget.delay('fast').slideToggle();
+                return false;
+            })
+        })(jQuery);
     </script>
+
+
 
 
 
